@@ -1,0 +1,48 @@
+{
+  "name": "teachme",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "react-scripts start"
+  },
+  "devDependencies": {
+    "@types/css-modules": "^1.0.5",
+    "@types/ramda": "^0.30.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "@types/react-router-dom": "^5.3.3",
+    "css-loader": "^7.1.2",
+    "sass": "^1.83.0",
+    "style-loader": "^4.0.0"
+  },
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@mantine/core": "^7.15.1",
+    "@mantine/hooks": "^7.15.1",
+    "@mantinex/mantine-logo": "^1.1.0",
+    "@tabler/icons-react": "^3.24.0",
+    "ramda": "^0.30.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.0.2",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
